@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\WpfApp1\GUI.csproj", "{7ED94DF6-4A84-458C-93DD-13CE0695C8F2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Interpreter", "Interpreter\Interpreter.fsproj", "{225DFBD0-2172-5F8E-B8DB-B8E71704852E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED94DF6-4A84-458C-93DD-13CE0695C8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED94DF6-4A84-458C-93DD-13CE0695C8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED94DF6-4A84-458C-93DD-13CE0695C8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED94DF6-4A84-458C-93DD-13CE0695C8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225DFBD0-2172-5F8E-B8DB-B8E71704852E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225DFBD0-2172-5F8E-B8DB-B8E71704852E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225DFBD0-2172-5F8E-B8DB-B8E71704852E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225DFBD0-2172-5F8E-B8DB-B8E71704852E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25D2805B-F255-4100-A79C-12F61D271875}
+	EndGlobalSection
+EndGlobal
