@@ -4,7 +4,6 @@ using OxyPlot;
 using OxyPlot.Axes;
 using OxyPlot.Series;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -40,6 +39,7 @@ namespace WpfApp1
 
         public MainWindow()
         {
+            var updateCheck = typeof(OxyPlot.Wpf.PlotView);
             InitializeComponent();
 
             BnfTextBox.Text = "Grammar in BNF: \r\n<Statement> ::= <Id> \"(\" <Id> \")\" \"=\" <E> \";\" | <Id> \"=\" <E> \";\" | \"for\" <Id> \"=\" <E> \"to\" <E> \";\" | <E> \";\" | <E>\r\n<E> ::= <T> <Eopt>\r\n<Eopt> ::= \"+\" <T> <Eopt> | \"-\" <T> <Eopt> | <empty>\r\n<T> ::= <P> <Topt>\r\n<Topt> ::= \"*\" <P> <Topt> | \"/\" <P> <Topt> | \"%\" <P> <Topt> | <empty>\r\n<P> ::= <NR> <Popt>\r\n<Popt> ::= \"^\" <P> | <empty>\r\n<NR> ::= \"Num\" <value> |  <Id> \"(\" <E> \")\" | <Id> | \"-\" <NR> | \"(\" <E> \")\" | \"cos\" \"(\" <E> \")\" | \"sin\" \"(\" <E> \")\" | \"tan\" \"(\" <E> \")\" | \"exp\" \"(\" <E> \")\" | \"log\" \"(\" <E> \")\"";
